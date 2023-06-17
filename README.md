@@ -1,6 +1,8 @@
 # Workstation-Hackintosh
 My attempt at transforming my current PC build into a hackintosh.
 
+![Screenshot of the "About This Mac" window and the desktop.](./screenshot.png)
+
 ## Install specifications
 
 | Item     | Version          |
