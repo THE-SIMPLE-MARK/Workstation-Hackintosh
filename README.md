@@ -5,11 +5,15 @@ My attempt at transforming my current PC build into a hackintosh.
 
 ## Install specifications
 
-| Item     | Version          |
-|----------|------------------|
-| MacOS    | Sonoma 14.0 Beta |
-| OpenCore | 0.9.3-RELEASE    |
-| BIOS     | _To be added._   |
+| Item     | Version        |
+|----------|----------------|
+| MacOS    | Ventura 13.4   |
+| OpenCore | 0.9.3-RELEASE  |
+| BIOS     | _To be added._ |
+
+### Sonoma Upgrade
+
+You can upgrade to sonoma using this setup, I did not find any issues in either OS versions. However at the time of creating this it is still in beta, so do it at your own risk. You can download the Install Assistant from [this link](https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg) which will help you upgrade.
 
 ## PC Specifications
 
