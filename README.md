@@ -38,7 +38,7 @@ You can upgrade to sonoma using this setup, I did not find any issues in either 
 | USB A/C 2.0/3.0 Ports   | Full support              | Fully supported using custom SSDT and kext.                                                          |
 | Ethernet (RJ45)         | Full support              | Support using RealtekRTL8111 kext.                                                                   |
 | Wifi / Bluetooth        | No support for stock part | Motherboard WiFi/BT doesn't work. Please read the wireless card support section below for more info. |
-| Shutdown/Restart/Sleep  | Full support              | Everything works as expected, except sleep. Sleep will just wake up after a few seconds,             |
+| Shutdown/Restart/Sleep  | Full support              | Everything works as expected.                                                                        |
 
 ### Wireless card support
 
