@@ -5,11 +5,11 @@ My attempt at transforming my current PC build into a hackintosh.
 
 ## Install specifications
 
-| Item     | Version        |
-|----------|----------------|
-| MacOS    | Ventura 13.4   |
-| OpenCore | 0.9.3-RELEASE  |
-| BIOS     | _To be added._ |
+| Item     | Version       |
+|----------|---------------|
+| MacOS    | Ventura 13.4  |
+| OpenCore | 0.9.3-RELEASE |
+| BIOS     | F21           |
 
 ### Sonoma Upgrade
 
