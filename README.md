@@ -13,7 +13,9 @@ My attempt at transforming my current PC build into a hackintosh.
 
 ### Sonoma Upgrade
 
-You can upgrade to sonoma using this setup, I did not find any issues in either OS versions. However at the time of creating this it is still in beta, so do it at your own risk. You can download the Install Assistant from [this link](https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg) which will help you upgrade.
+> ⚠️ Wi-Fi cards are not supported in MacOS as of writing this. Bluetooth will still work on the same cards though.
+
+You can upgrade to sonoma using this setup. However at the time of creating this it is still in beta, so do it at your own risk. You can download the Install Assistant from [this link](https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg) which will help you upgrade.
 
 ## PC Specifications
 
@@ -44,9 +46,11 @@ You can upgrade to sonoma using this setup, I did not find any issues in either 
 
 The original wireless card in my motherboard is the AMD Wi-Fi 6E RZ608 (MT7921K). This chipset was never supported in any version and there are no kexts for it available either. Check out [Dortania's Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/) to find one compatible with your system.
 
-#### My personal solution
+**Please do note that the wifi card in my motherboard is actually replacable!** I sadly found this out too late as I've already ordered the PCIe slot version (Fenvi T919). This means that a small m.2 card can be ordered and be placed in the system so wireless networking itself doesn't take up PCIe slots. I honestly don't understand why this wasn't documented in my motherboard's spec sheet.
 
-After consulting with a couple of experienced people about this matter in the [r/hackintosh Paradise Discord](https://discord.gg/u8V7N5C) we came to the conclusion that there is only one chipset which has good native support and is kind of available online in my region (Hungary) for a relatively good price and specs. That is the BCM94360HMB chipset. Cards using this chipset have support for 2.4Ghz & 5Ghz with Bluetooth included. **This chipset also happens to have full support on the Dell Latitude E6430 models.**
+You can see where the m.2 is mounted on the [Gigabyte B660 DS3H DDR4](https://www.gigabyte.com/Motherboard/B660-DS3H-AX-DDR4-rev-10-11):
+
+![Picture of the wifi card sitting snuggly behind the antenna ports on the other side.](./wifi-card.png)
 
 ## Security Notes
 
@@ -56,4 +60,7 @@ This OpenCore installation has only been configured with the most basic of secur
 
 Updates I've made over time can be found here.
 
-*Coming soon!*
+### 2023 Jul 3.
+
+- Switched out the default OpenCore picker theme to the [BlackOSX M1](https://github.com/blackosx/BsxM1) theme. Also re-added the `resources` folder with it.
+- Added more info about the WiFi card.
