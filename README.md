@@ -13,7 +13,7 @@ My attempt at transforming my current PC build into a hackintosh.
 
 ### Sonoma Upgrade
 
-> ⚠️ Wi-Fi cards are not supported in MacOS as of writing this. Bluetooth will still work on the same cards though.
+> ⚠️ Wi-Fi cards are not supported in MacOS Sonoma as of writing this. Bluetooth will still work on the same cards though.
 
 You can upgrade to sonoma using this setup. However at the time of creating this it is still in beta, so do it at your own risk. You can download the Install Assistant from [this link](https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg) which will help you upgrade.
 
