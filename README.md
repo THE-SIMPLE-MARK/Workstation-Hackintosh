@@ -60,7 +60,7 @@ This OpenCore installation has only been configured with the most basic of secur
 
 Updates I've made over time can be found here.
 
-### 2024 March 3.
+### 2024 March 22.
 
 - Upgraded OpenCore to 0.9.9
 - Upgraded all other kexts and drivers to their latest versions
