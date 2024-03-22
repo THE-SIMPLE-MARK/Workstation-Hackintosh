@@ -60,6 +60,11 @@ This OpenCore installation has only been configured with the most basic of secur
 
 Updates I've made over time can be found here.
 
+### 2024 March 3.
+
+- Upgraded OpenCore to 0.9.9
+- Upgraded all other kexts and drivers to their latest versions
+
 ### 2023 Jul 3.
 
 - Switched out the default OpenCore picker theme to the [BlackOSX M1](https://github.com/blackosx/BsxM1) theme. Also re-added the `resources` folder with it.
