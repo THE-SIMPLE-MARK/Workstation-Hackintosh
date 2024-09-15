@@ -5,15 +5,16 @@ My attempt at transforming my current PC build into a hackintosh.
 
 ## Install specifications
 
-| Item     | Version       |
-|----------|---------------|
-| MacOS    | Ventura 13.4  |
-| OpenCore | 0.9.3-RELEASE |
-| BIOS     | F21           |
+| Item              | Version       |
+|-------------------|---------------|
+| Min MacOS version | Ventura 13.4  |
+| Max MacOS version | Sequoia 15.0  |
+| OpenCore          | 1.0.1-RELEASE |
+| BIOS              | F21           |
 
 ### Sonoma Upgrade
 
-> ⚠️ Wi-Fi cards are not supported in MacOS Sonoma as of writing this. Bluetooth will still work on the same cards though.
+> ⚠️ Wi-Fi cards are not supported in MacOS Sonoma by default as of writing this. You can use the OpenCore Legacy Patcher's post-install patch to get back the drivers for it from Ventura though. Bluetooth will still work the same way on the same cards.
 
 You can upgrade to sonoma using this setup. However at the time of creating this it is still in beta, so do it at your own risk. You can download the Install Assistant from [this link](https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg) which will help you upgrade.
 
@@ -59,6 +60,11 @@ This OpenCore installation has only been configured with the most basic of secur
 ## Updates
 
 Updates I've made over time can be found here.
+
+### 2024 Sep 15
+Preparation for Sequoia update
+- Upgraded OpenCore & drivers to 1.0.1
+- Synced local changes to remote
 
 ### 2024 March 22.
 
